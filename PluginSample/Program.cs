@@ -17,10 +17,10 @@ internal class Program {
         // Load plugins
         int pluginCount = 0;
         foreach (var path in pluginPaths) {
-            pluginCount++;
-
             var plugin = LoadPlugin(path);
+
             if (plugin != null) {
+                pluginCount++;
                 plugins.Add(pluginCount, plugin);
             }
         }

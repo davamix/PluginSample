@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSample", "PluginSample\PluginSample.csproj", "{90D15AA6-78D7-4B27-B0BF-78783F459D51}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumPlugin", "SumPlugin\SumPlugin.csproj", "{255E2307-12EE-47BD-9B62-235773CAC849}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationPlugin", "MultiplicationPlugin\MultiplicationPlugin.csproj", "{4198CACD-4F3F-4BBA-88EF-CE74AA49C929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalReferencePlugin", "ExternalReferencePlugin\ExternalReferencePlugin.csproj", "{69C0AD4E-24CC-48EB-85CD-2243C4A3B4F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4198CACD-4F3F-4BBA-88EF-CE74AA49C929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4198CACD-4F3F-4BBA-88EF-CE74AA49C929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4198CACD-4F3F-4BBA-88EF-CE74AA49C929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C0AD4E-24CC-48EB-85CD-2243C4A3B4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C0AD4E-24CC-48EB-85CD-2243C4A3B4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C0AD4E-24CC-48EB-85CD-2243C4A3B4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C0AD4E-24CC-48EB-85CD-2243C4A3B4F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
